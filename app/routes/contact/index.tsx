@@ -1,7 +1,6 @@
 import React from "react";
 import type { Route } from "./+types/index";
 import { Form } from "react-router";
-import { MdAttachEmail } from "react-icons/md";
 
 export async function action({ request }: Route.ActionArgs) {
 	const formData = await request.formData();
